@@ -2,7 +2,7 @@
 
 ## Description
 
-Support Force to download OrchardCore media file 
+Force to download OrchardCore media file 
 
 ## Example
 
