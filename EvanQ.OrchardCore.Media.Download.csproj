@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Title>EvanQ.OrchardCore.Media.Download</Title>
     <Authors>EvanQ</Authors>
     <Description>Allow users to force download a media file</Description>
