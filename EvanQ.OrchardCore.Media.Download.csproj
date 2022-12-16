@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Title>EvanQ.OrchardCore.Media.Download</Title>
+    <Authors>EvanQ</Authors>
+    <Description>Allow users to force download a media file</Description>
+    <Copyright>EvanQ</Copyright>
+    <PackageProjectUrl>https://github.com/IsQiao/EvanQ.OrchardCore.Media.Download</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/IsQiao/EvanQ.OrchardCore.Media.Download</RepositoryUrl>
+    <PackageTags>OrchardCore OrchardCoreFramework EvanQ</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

@@ -7,6 +7,7 @@ using OrchardCore.Modules.Manifest;
     Category = "Content Management",
     Dependencies = new[]
     {
-        "OrchardCore.Media"
+        "OrchardCore.ContentTypes",
+        // "OrchardCore.Media", // todo: fix it
     }
 )]

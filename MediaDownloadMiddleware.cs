@@ -29,7 +29,9 @@ public class MediaDownloadMiddleware
         }
 
         var mediaUrlPrefix = _mediaFileStore.MapPathToPublicUrl("");
-        var mediaUrlPrefixPath = new Uri(mediaUrlPrefix).AbsolutePath;
+        var mediaUrlPrefixPath = Uri.IsWellFormedUriString(mediaUrlPrefix, UriKind.Absolute)
+            ? new Uri(mediaUrlPrefix).AbsolutePath
+            : mediaUrlPrefix;
         var currentPath = UriHelper.BuildRelative(httpContext.Request.PathBase, httpContext.Request.Path);
         if (!currentPath.ToLower().StartsWith(mediaUrlPrefixPath.ToLower()))
         {
