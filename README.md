@@ -17,5 +17,3 @@ Force to download OrchardCore media file
 or
 /media/bd.jpeg?download=1
 ```
-
-https://www.nuget.org/packages/EvanQ.OrchardCore.Media.Download/
